@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Launcher.qml</file>
+        <file>qml/SimpleLauncherDelegate.qml</file>
+        <file>database/tnmdump</file>
+        <file>qml/Sidemenu.qml</file>
+        <file>content/bars.png</file>
+        <file>qml/Buttoni.qml</file>
+        <file>build/moc_mainwindow.cpp</file>
+        <file>build/moc_qtquick2applicationviewer.cpp</file>
+        <file>build/qrc_resources.cpp</file>
+        <file>build/ui_mainwindow.h</file>
+        <file>qtquick2applicationviewer/qtquick2applicationviewer.cpp</file>
+        <file>qtquick2applicationviewer/qtquick2applicationviewer.h</file>
+        <file>createconnection.h</file>
+        <file>database.h</file>
+        <file>main.cpp</file>
+        <file>qml/TNM.qml</file>
+        <file>qml/StageBox.qml</file>
+        <file>content/close.png</file>
+        <file>content/gear2small.png</file>
+    </qresource>
+</RCC>

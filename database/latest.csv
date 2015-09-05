@@ -1,0 +1,515 @@
+organid,organ,t,n,m,region
+1,Urinary Bladder,"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+Ta Noninvasive papillary carcinoma
+Tis Carcinoma in situ: ﾓflat tumorﾔ
+T1 Tumor invades subepithelial connective tissue
+T2 Tumor invades muscularis propria
+pT2a Tumor invades superficial muscularis propria (inner half)
+pT2b Tumor invades deep muscularis propria (outer half)
+T3 Tumor invades perivesical tissue
+pT3a Microscopically
+pT3b Macroscopically (extravesical mass)
+T4 Tumor invades any of the following: prostatic stroma, seminal vesicles, uterus, vagina, pelvic wall, abdominal wall
+T4a Tumor invades prostatic stroma, uterus, vagina
+T4b Tumor invades pelvic wall, abdominal wall","NX Lymph nodes cannot be assessed
+N0 No lymph node metastasis
+N1 Single regional lymph node metastasis in the true pelvis (hypogastric, obturator, external iliac, or presacral lymph node)
+N2 Multiple regional lymph node metastasis in the true pelvis (hypogastric, obturator, external iliac, or presacral lymph node metastasis)
+N3 Lymph node metastasis to the common iliac lymph nodes","MX - Distant metastasis (M) cannot be assessed
+M0 - No distant metastasis
+M1 - Distant metastasis",Genitourinary
+2,Lung,"Tx - The tumor size is unknown, or cancer cells are only found in sputum.
+T0 - There is no evidence of a primary tumor.
+Tis - Carcinoma in situ – The tumor is present only in the cells lining the airway.
+T1 – Tumors less than or equal to 3 cm 
+ T1a – Less than or equal to 2 cm. 
+ T1b – Greater than 2 cm but less than or equal to 3 cm.
+T2 – The tumor is greater than 3 cm but less than 7 cm. T2 tumors may block part of the airway, but have not resulted in pneumonia or caused atelectasis. They may have spread to the lining around the lungs. They may also be close to the main bronchus, but are at least 2 cm (about an inch) away from the area in which the bronchus divides to go to each of the lungs. 
+ T2a - Greater than 3 cm but less than or equal to 5 cm. 
+ T2b - Greater than 5 cm but less than or equal to 7 cm.
+
+T3 - Tumors greater than 7 cm, or less than 7 cm but with a separate nodule in the same lobe. T3 tumors also include tumors that are less than 7 cm but invade the lining of the lung (pleura), the chest wall, the diaphragm, the main bronchus, or lie within 2 cm of the area where the bronchus divides to travel to the lungs. A tumor is also classified as T3 if it is less than 7 cm but is associated with pneumonia or collapse of the entire lung.
+
+T4 - A tumor of any size, but with another nodule in a different lobe on the same side of the body, or a tumor that invades structures in the chest such as the heart, major blood vessels near the heart, the trachea, the recurrent laryngeal nerve (a nerve near the trachea), the mediastinum (the space between the lungs), the esophagus, or the area where the main bronchus divides to travel to the two lungs.","NX Regional lymph nodes cannot be assessed
+N0 No regional node metastasis
+N1 Metastasis in ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, including involvement by direct extension
+N2 Metastasis in the ipsilateral mediastinal and/or subcarinal lymph node(s)
+N3 Metastasis in the contralateral mediastinal, contralateral hilar, ipsilateral or contralateral scalene, or supraclavicular lymph nodes ","MX - Distant metastasis (M) cannot be assessed
+M0 - No distant metastasis
+M1 - Distant metastasis",Chest
+3,Mesothelioma,"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+T1 Tumor limited to the ipsilateral parietal pleura with or without mediastinal pleura and with or without diaphragmatic pleural involvement
+T1a No involvement of the visceral pleura
+T1b Tumor also involving the visceral pleura
+T2 Tumor involving each of the ipsilateral pleural surfaces (parietal, mediastinal, diaphragmatic, and visceral pleura) with at least 1 of the following:
+    Involvement of the diaphragmatic muscle
+    Extension of tumor from the visceral pleura into the underlying pulmonary parenchyma
+
+T3 Locally advanced but potentially resectable tumor; tumor involving all of the ipsilateral pleural surfaces (parietal, mediastinal, diaphragmatic, and visceral pleura) with at least 1 of the following:
+    Involvement of the endothoracic fascia
+    Extension into the mediastinal fat
+    Solitary, completely resectable focus of tumor extending into the soft tissue of the chest wall
+    Nontransmural involvement of the pericardium
+
+T4 Locally advanced, technically unresectable tumor; tumor involving all of the ipsilateral pleural surfaces (parietal, mediastinal, diaphragmatic, and visceral pleura) with at least 1 of the following:
+    Diffuse extension or multifocal masses of tumor in the chest wall, with or without associated rib destruction
+    Direct diaphragmatic extension of the tumor to the peritoneum
+    Direct extension of the tumor to the contralateral pleura
+    Direct extension of the tumor to a mediastinal organ
+    Direct extension of the tumor into the spine
+    Tumor extending through to the internal surface of the pericardium with or without a pericardial effusion or tumor involving the myocardium ","NX Regional lymph node(s) cannot be assessed
+N0 No regional lymph node metastases
+N1 Metastases in the ipsilateral bronchopulmonary or hilar lymph node
+N2 Metastases in the subcarinal or in the ipsilateral mediastinal lymph node, including the ipsilateral internal mammary and peridiaphragmatic nodes
+N3 Metastases in the contralateral mediastinal, contralateral internal mammary, ipsilateral or contralateral supraclavicular lymph nodes ","MX - Distant metastasis (M) cannot be assessed
+M0 - No distant metastasis
+M1 - Distant metastasis",Chest
+4,Stomach,"Tx -  Primary tumor (T) cannot be assessed
+T0 - No evidence of primary tumor
+Tis - Carcinoma in situ, intraepithelial tumor without invasion of lamina propria
+T1 - Tumor invades lamina propria or submucosa
+T2 - Tumor invades muscularis propria or subserosa
+T3 - Tumor penetrates serosa (ie, visceral peritoneum) without invasion of adjacent structures
+T4 - Tumor invades adjacent structures","NX - Regional lymph nodes (N) cannot be assessed
+N0 - No regional lymph node metastases
+N1 - Metastasis in 1-6 regional lymph nodes
+N2 - Metastasis in 7-15 regional lymph nodes
+N3 - Metastasis in > 15 regional lymph nodes","MX - Distant metastasis (M) cannot be assessed
+M0 - No distant metastasis
+M1 - Distant metastasis",Digestive system
+5,Anal,"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+Tis Carcinoma in situ (Bowen disease, high-grade squamous intraepithelial lesion [HSIL], anal intraepithelial neoplasia II-III (AIN II-III)
+T1 Tumor 2 cm or less in greatest dimension
+T2 Tumor more than 2 cm but not more than 5 cm in greatest dimension
+T3 Tumor more than 5 cm in greatest dimension
+T4 Tumor of any size invades adjacent organ(s) (eg, vagina, urethra, bladder);direct invasion of the rectal wall, perirectal skin, subcutaneous tissue, or the sphincter muscle(s) is not classified as T4 ","NX Regional lymph nodes cannot be assessed
+N0 No regional lymph node metastasis
+N1 Metastasis in perirectal lymph node(s)
+N2 Metastasis in unilateral internal iliac and/or inguinal lymph node(s)
+N3 Metastasis in perirectal and inguinal lymph nodes and/or bilateral internal iliac and/or inguinal lymph nodes","MX - Distant metastasis (M) cannot be assessed
+M0 - No distant metastasis
+M1 - Distant metastasis",Digestive system
+6,Esophagus,"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+Tis High-grade dysplasia
+T1 Tumor invades lamina propria, muscularis mucosae, or submucosa
+T1a Tumor invades lamina propria or muscularis mucosae
+T1b Tumor invades submucosa
+T2 Tumor invades muscularis propria
+T3 Tumor invades adventitia
+T4 Tumor invades adjacent structures
+T4a Resectable tumor invading pleura, pericardium, or diaphragm
+T4b Unresectable tumor invading other adjacent structures, such as the aorta, vertebral body, and trachea","NX Regional lymph node(s) cannot be assessed
+N0 No regional lymph node metastasis
+N1 Metastasis in 1-2 regional lymph nodes
+N2 Metastasis in 3-6 regional lymph nodes
+N3 Metastasis in 7 or more regional lymph nodes","MX - Distant metastasis (M) cannot be assessed
+M0 - No distant metastasis
+M1 - Distant metastasis",Digestive system
+7,Colorectal,"
+TX - Primary tumor cannot be assessed 
+T0 - No evidence of primary tumor 
+Tis - Carcinoma in situ: intraepithelial or invasion of lamina propria 
+T1 - Tumor invades submucosa 
+T2 - Tumor invades muscularis propria 
+T3 - Tumor invades through the muscularis propria into the pericolorectal tissues 
+T4a - Tumor penetrates to the surface of the visceral peritoneum 
+T4b - Tumor directly invades or is adherent to other organs or structures 
+
+","
+NX - Regional lymph nodes cannot be assessed
+N0 - No regional lymph node metastasis
+N1 - Metastasis in 1-3 regional lymph nodes
+N1a - Metastasis in 1 regional lymph node
+N1b - Metastasis in 2-3 regional lymph nodes
+N1c - Tumor deposit(s) in the subserosa, mesentery, or nonperitonealized pericolic or perirectal tissues without regional nodal metastasis 
+N2 - Metastasis in 4 or more lymph nodes
+N2a - Metastasis in 4-6 regional lymph nodes
+N2b - Metastasis in 7 or more regional lymph nodes
+","M0 - No distant spread seen
+M1a - Spread to 1 distant organ or set of distant lymph nodes
+M1b - Spread to > 1 distant organ or set of distant lymph nodes, or has spread to distant parts of the peritoneum ",Digestive system
+8,Prostate,"
+TX: cannot evaluate the primary tumor
+T0: no evidence of tumor
+T1: tumor present, but not detectable clinically or with imaging
+        T1a: tumor was incidentally found in less than 5% of prostate tissue resected (for other reasons)
+        T1b: tumor was incidentally found in greater than 5% of prostate tissue resected
+        T1c: tumor was found in a needle biopsy performed due to an elevated serum PSA
+T2: the tumor can be felt (palpated) on examination, but has not spread outside the prostate
+        T2a: the tumor is in half or less than half of one of the prostate gland's two lobes
+        T2b: the tumor is in more than half of one lobe, but not both
+        T2c: the tumor is in both lobes but within the prostatic capsule
+T3: the tumor has spread through the prostatic capsule (if it is only part-way through, it is still T2)
+        T3a: the tumor has spread through the capsule on one or both sides
+        T3b: the tumor has invaded one or both seminal vesicles
+T4: the tumor has invaded other nearby structures
+","NX: cannot evaluate the regional lymph nodes
+N0: there has been no spread to the regional lymph nodes
+N1: there has been spread to the regional lymph nodes
+","MX: cannot evaluate distant metastasis
+M0: there is no distant metastasis
+M1: there is distant metastasis
+        M1a: the cancer has spread to lymph nodes beyond the regional ones
+        M1b: the cancer has spread to bone
+        M1c: the cancer has spread to other sites (regardless of bone involvement)
+",Genitourinary
+9,Breast,"TX- that the tumour size cannot be assessed
+
+Tis - DCIS
+T1 – The tumour is 2 centimetres (cm) across or less
+    T1mi – the tumour is 0.1cm across or less
+    T1a – the tumour is more than 0.1 cm but not more than 0.5 cm
+    T1b – the tumour is more than 0.5 cm but not more than 1 cm
+    T1c – the tumour is more than 1 cm but not more than 2 cm
+T2 – The tumour is more than 2 centimetres, but no more than 5 centimetres across
+T3 – The tumour is bigger than 5 centimetres across
+T4 
+    T4a – The tumour has spread into the chest wall
+    T4b – The tumour has spread into the skin and the breast may be swollen
+    T4c – The tumour has spread to both the skin and the chest wall
+    T4d – Inflammatory carcinoma – this is a cancer in which the overlying skin is red, swollen and painful to the touch
+","NX means that the lymph nodes cannot be assessed (for example, if they were previously removed)
+N0 – No cancer cells found in any nearby nodes
+
+Isolated tumour cells (ITCs) are small clusters of cancer cells less than 0.2 mm across, or a single tumour cell, or a cluster of fewer than 200 cells in one area of a lymph node. Lymph nodes containing only isolated tumour cells are not counted as positive lymph nodes
+
+N1 – Cancer cells are in the lymph nodes in the armpit but the nodes are not stuck to surrounding tissues
+
+pN1mi – One or more lymph nodes contain areas of cancer cells called micrometastases that are larger than 0.2mm or contain more than 200 cancer cells but are less than 2mm
+
+N2 is divided into 2 groups
+
+    N2a – there are cancer cells in the lymph nodes in the armpit, which are stuck to each other and to other structures
+    N2b – there are cancer cells in the lymph nodes behind the breast bone (the internal mammary nodes), which have either been seen on a scan or felt by the doctor. There is no evidence of cancer in lymph nodes in the armpit
+
+N3 is divided into 3 groups
+
+    N3a – there are cancer cells in lymph nodes below the collarbone
+    N3b – there are cancer cells in lymph nodes in the armpit and behind the breast bone
+    N3c – there are cancer cells in lymph nodes above the collarbone
+","MX - Distant metastasis (M) cannot be assessed
+M0 - No distant metastasis
+M1 - Distant metastasis",Breast
+11,Oral cavity,"TX 	Primary tumour cannot be assessed
+T0 	No evidence of primary tumour
+Tis 	Carcinoma in situ
+T1 	Tumour 2 cm or less in greatest dimension
+T2 	Tumour more than 2 cm but not more than 4 cm in greatest dimension
+T3 	Tumour more than 4 cm in greatest dimension
+T4a (lip) 	Tumour invades through cortical bone, inferior alveolar nerve, floor of mouth, or skin (chin or nose)
+T4a (oral cavity) 	Tumour invades through cortical bone, into deep/extrinsic muscle of tongue (genioglossus, hyoglossus, palatoglossus, and styloglossus), maxillary sinus, or skin of face
+T4b (lip and oral cavity) 	Tumour invades masticator space, pterygoid plates, or skull base; or encases internal carotid artery
+","NX 	Regional lymph nodes cannot be assessed
+N0 	No regional lymph node metastasis
+N1 	Metastasis in a single ipsilateral lymph node, 3 cm or less in greatest dimension
+N2 	Metastasis as specified in N2a, 2b, 2c below
+N2a 	Metastasis in a single ipsilateral lymph node, more than 3 cm but not more than 6 cm in greatest dimension
+N2b 	Metastasis in multiple ipsilateral lymph nodes, none more than 6 cm in greatest dimension
+N2c 	Metastasis in bilateral or contralateral lymph nodes, none more than 6 cm in greatest dimension
+N3 	Metastasis in a lymph node more than 6 cm in greatest dimension","MX 	Distant metastasis cannot be assessed
+M0 	No distant metastasis
+M1 	Distant metastasis",Head and Neck
+12,Thyroid,"TX	Primary tumor cannot be assessed
+T0	No evidence of primary tumor is found
+T1	Tumor size ≤ 2 cm in greatest dimension and is limited to the thyroid
+T1a	Tumor ≤ 1 cm, limited to the thyroid
+T1b	Tumor > 1 cm but ≤ 2 cm in greatest dimension, limited to the thyroid
+T2	Tumor size > 2 cm but ≤ 4 cm, limited to the thyroid.
+T3	Tumor size >4 cm, limited to the thyroid or any tumor with minimal extrathyroidal extension (eg, extension to sternothyroid muscle or perithyroid soft tissues)
+T4a	Moderately advanced disease; tumor of any size extending beyond the thyroid capsule to invade subcutaneous soft tissues, larynx, trachea, esophagus, or recurrent laryngeal nerve
+T4b	Very advanced disease; tumor invades prevertebral fascia or encases carotid artery or mediastinal vessel
+All anaplastic carcinomas are considered stage IV:
+T4a	Intrathyroidal anaplastic carcinoma
+T4b	Anaplastic carcinoma with gross extrathyroid extension","NX	Regional nodes cannot be assessed
+N0	No regional lymph node metastasis
+N1	Regional lymph node metastasis
+N1a	Metastases to level VI (pretracheal, paratracheal, and prelaryngeal/Delphian lymph nodes)
+N1b	Metastases to unilateral, bilateral, or contralateral cervical (levels I, II, III, IV, or V) or retropharyngeal or superior mediastinal lymph nodes (level VII)
+","MX 	Distant metastasis cannot be assessed
+M0 	No distant metastasis
+M1 	Distant metastasis",Head and Neck
+13,Paranasal sinus (maxilla),"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+Tis Carcinoma in situ
+T1 Tumor limited to maxillary sinus mucosa with no erosion or destruction of bone
+T2 Tumor causing bone erosion or destruction, including extension into the hard palate and/or middle nasal meatus, except extension to posterior wall of the maxillary sinus and pterygoid plates
+T3 Tumor invades any of the following: bone of the posterior wall of the maxillary sinus, subcutaneous tissues, floor or medial wall of the orbit, pterygoid fossa, ethmoid sinuses
+T4a Moderately advanced local disease
+
+    Tumor invades the anterior orbital contents, skin of the cheek, pterygoid plates, infratemporal fossa, cribriform plate, sphenoid or frontal sinuses 
+
+T4b Very advanced local disease
+
+    Tumor invades any of the following: orbital apex, dura, brain, middle cranial fossa, cranial nerves other than maxillary division of trigeminal nerve (V2), nasophary","NX Regional nodes cannot be assessed
+N0 No regional lymph node metastasis
+N1 Metastasis in a single ipsilateral lymph node =3cm in greatest dimension
+N2 Metastasis in a single ipsilateral lymph node >3cm but not more than 6cm in greatest dimension; or in multiple ipsilateral lymph nodes, none >6cm in greatest dimension; or in bilateral or contralateral lymph nodes, none >6cm in greatest dimension
+N2a Metastasis in a single ipsilateral lymph node >3cm but not more than 6cm in greatest dimension
+N2b Metastasis in multiple ipsilateral lymph nodes, none >6cm in greatest dimension
+N2c Metastasis in bilateral or contralateral lymph nodes, none >6cm in greatest dimension
+N3 Metastasis in a lymph node >6cm in greatest dimension","MX 	Distant metastasis cannot be assessed
+M0 	No distant metastasis
+M1 	Distant metastasis",Head and Neck
+14,Paranasal sinus (ethmoid) ,"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+Tis Carcinoma in situ
+T1 Tumor restricted to any 1 subsite, with or without bony invasion
+T2 Tumor invading 2 subsites in a single region or extending to involve an adjacent region within the nasoethmoidal complex, with or without bony invasion
+T3 Tumor extends to invade the medial wall or floor of the orbit, maxillary sinus, palate, or cribriform plate
+T4a Moderately advanced local disease
+
+    Tumor invades any of the following: anterior orbital contents, skin of the nose or cheek, minimal extension to the anterior cranial fossa, pterygoid plates, sphenoid or frontal sinuses 
+
+T4b Very advanced local disease
+
+    Tumor invades any of the following: orbital apex, dura, brain, middle cranial fossa, cranial nerves other than maxillary division of trigeminal nerve (V2), nasopharynx, or clivus ","NX Regional nodes cannot be assessed
+N0 No regional lymph node metastasis
+N1 Metastasis in a single ipsilateral lymph node =3cm in greatest dimension
+N2 Metastasis in a single ipsilateral lymph node >3cm but not more than 6cm in greatest dimension; or in multiple ipsilateral lymph nodes, none >6cm in greatest dimension; or in bilateral or contralateral lymph nodes, none >6cm in greatest dimension
+N2a Metastasis in a single ipsilateral lymph node >3cm but not more than 6cm in greatest dimension
+N2b Metastasis in multiple ipsilateral lymph nodes, none >6cm in greatest dimension
+N2c Metastasis in bilateral or contralateral lymph nodes, none >6cm in greatest dimension
+N3 Metastasis in a lymph node >6cm in greatest dimension","MX 	Distant metastasis cannot be assessed
+M0 	No distant metastasis
+M1 	Distant metastasis",Head and Neck
+15,Nasal cavity,"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+Tis Carcinoma in situ
+T1 Tumor restricted to any 1 subsite, with or without bony invasion
+T2 Tumor invading 2 subsites in a single region or extending to involve an adjacent region within the nasoethmoidal complex, with or without bony invasion
+T3 Tumor extends to invade the medial wall or floor of the orbit, maxillary sinus, palate, or cribriform plate
+T4a Moderately advanced local disease
+
+    Tumor invades any of the following: anterior orbital contents, skin of the nose or cheek, minimal extension to the anterior cranial fossa, pterygoid plates, sphenoid or frontal sinuses 
+
+T4b Very advanced local disease
+
+    Tumor invades any of the following: orbital apex, dura, brain, middle cranial fossa, cranial nerves other than maxillary division of trigeminal nerve (V2), nasopharynx, or clivus ","NX Regional nodes cannot be assessed
+N0 No regional lymph node metastasis
+N1 Metastasis in a single ipsilateral lymph node =3cm in greatest dimension
+N2 Metastasis in a single ipsilateral lymph node >3cm but not more than 6cm in greatest dimension; or in multiple ipsilateral lymph nodes, none >6cm in greatest dimension; or in bilateral or contralateral lymph nodes, none >6cm in greatest dimension
+N2a Metastasis in a single ipsilateral lymph node >3cm but not more than 6cm in greatest dimension
+N2b Metastasis in multiple ipsilateral lymph nodes, none >6cm in greatest dimension
+N2c Metastasis in bilateral or contralateral lymph nodes, none >6cm in greatest dimension
+N3 Metastasis in a lymph node >6cm in greatest dimension","MX 	Distant metastasis cannot be assessed
+M0 	No distant metastasis
+M1 	Distant metastasis",Head and Neck
+16,Larynx (supraglottis),"T1: The tumor is located in a single area above the vocal folds that does not affect the movement of the vocal folds.
+
+T2: The tumor started in the supraglottis but has spread to the mucous membranes that line other areas, such as the base of the tongue.
+
+T3: The tumor is limited to the larynx with vocal fold involvement and/or has spread to surrounding tissue.
+
+T4a: The tumor has spread through the thyroid cartilage and/or the tissue beyond the larynx.
+
+T4b: The tumor has spread to the area in front of the spine (prevertebral space), chest area, or encases the arteries.
+","NX: The regional lymph nodes cannot be evaluated.
+N0: There is no evidence of cancer in the regional nodes.
+N1: The cancer has spread to a single node on the same side as the primary tumor, and the cancer found in the node is 3 cm or smaller.
+N2: Describes any of the following conditions:
+    N2a: The cancer has spread to a single lymph node on the same side as the primary tumor and is larger than 3 cm, but not larger than 6 cm.
+    N2b: The cancer has spread to more than one lymph node on the same side as the primary tumor, and none measure larger than 6 cm.
+    N2c: The cancer has spread to more than one lymph node on either side of the body, and none measure larger than 6 cm.
+N3: The cancer found in the lymph nodes is larger than 6 cm.","MX 	Distant metastasis cannot be assessed
+M0 	No distant metastasis
+M1 	Distant metastasis",Head and Neck
+17,Larynx (glottis)," T1: The tumor is limited to the vocal folds, but it does not affect the movement of the folds.
+
+T1a: The tumor is only in the right or left vocal fold.
+
+T1b: The tumor is in both vocal folds.
+
+T2: The tumor has spread to the supraglottis and/or the subglottis. T2 also describes a tumor that affects the movement of the vocal fold, without paralyzing the fold.
+
+T3: The tumor is limited to the larynx and paralyzes at least one of the vocal folds.
+
+T4a: The tumor has spread to the thyroid cartilage and/or the tissue beyond the larynx.
+
+T4b: The tumor has spread to the area in front of the spine (prevertebral space), chest area, or encases the arteries.","NX: The regional lymph nodes cannot be evaluated.
+N0: There is no evidence of cancer in the regional nodes.
+N1: The cancer has spread to a single node on the same side as the primary tumor, and the cancer found in the node is 3 cm or smaller.
+N2: Describes any of the following conditions:
+    N2a: The cancer has spread to a single lymph node on the same side as the primary tumor and is larger than 3 cm, but not larger than 6 cm.
+    N2b: The cancer has spread to more than one lymph node on the same side as the primary tumor, and none measure larger than 6 cm.
+    N2c: The cancer has spread to more than one lymph node on either side of the body, and none measure larger than 6 cm.
+N3: The cancer found in the lymph nodes is larger than 6 cm.","MX 	Distant metastasis cannot be assessed
+M0 	No distant metastasis
+M1 	Distant metastasis",Head and Neck
+18,Larynx (subglottis)," T1: The tumor is limited to the subglottis.
+
+T2: The tumor has spread to the vocal folds and may or may not affect the movement of the folds.
+
+T3: The tumor is limited to the larynx and affects the vocal folds.
+
+T4a: The tumor has spread to the cricoids, the ring-shaped cartilage near the bottom of the larynx, or thyroid cartilage and/or the tissue beyond the larynx.
+
+T4b: The tumor has spread to the area in front of the spine, chest area, or encases the arteries.","NX: The regional lymph nodes cannot be evaluated.
+N0: There is no evidence of cancer in the regional nodes.
+N1: The cancer has spread to a single node on the same side as the primary tumor, and the cancer found in the node is 3 cm or smaller.
+N2: Describes any of the following conditions:
+    N2a: The cancer has spread to a single lymph node on the same side as the primary tumor and is larger than 3 cm, but not larger than 6 cm.
+    N2b: The cancer has spread to more than one lymph node on the same side as the primary tumor, and none measure larger than 6 cm.
+    N2c: The cancer has spread to more than one lymph node on either side of the body, and none measure larger than 6 cm.
+N3: The cancer found in the lymph nodes is larger than 6 cm.","MX 	Distant metastasis cannot be assessed
+M0 	No distant metastasis
+M1 	Distant metastasis",Head and Neck
+19,Larynx (hypopharynx)," T1: The tumor is small, no larger than 2 centimeters (cm), and is limited to a single site in the lower throat.
+
+T2: The tumor involves more than one site in the lower throat, but does not touch the voice box, or the tumor measures between 2 cm and 4 cm.
+
+T3: The tumor is larger than 4 cm or has spread to the larynx.
+
+T4a: The tumor has spread into nearby structures, such as the thyroid, the arteries that carry blood to the brain, or the esophagus.
+
+T4b: The tumor has spread to the prevertebral fascia (space in front of the spinal cord), encases the arteries, or involves mediastinal (chest-area) structures.","NX: The regional lymph nodes cannot be evaluated.
+N0: There is no evidence of cancer in the regional nodes.
+N1: The cancer has spread to a single node on the same side as the primary tumor, and the cancer found in the node is 3 cm or smaller.
+N2: Describes any of the following conditions:
+    N2a: The cancer has spread to a single lymph node on the same side as the primary tumor and is larger than 3 cm, but not larger than 6 cm.
+    N2b: The cancer has spread to more than one lymph node on the same side as the primary tumor, and none measure larger than 6 cm.
+    N2c: The cancer has spread to more than one lymph node on either side of the body, and none measure larger than 6 cm.
+N3: The cancer found in the lymph nodes is larger than 6 cm.","MX 	Distant metastasis cannot be assessed
+M0 	No distant metastasis
+M1 	Distant metastasis",Head and Neck
+20,Melanoma,"TX 
+Primary tumor cannot be assessed (for example, curettaged
+or severely regressed melanoma)
+T0 
+No evidence of primary tumor
+
+T1 
+Melanomas 1.0 mm or less in thickness
+T2 
+Melanomas 1.01ﾖ2.0 mm
+T3 
+Melanomas 2.01ﾖ4.0 mm
+T4 
+Melanomas more than 4.0 mm","NX	Patients in whom the regional nodes cannot be assessed (ie, previously removed for another reason)
+N0	No regional metastases detected
+N1-3	Regional metastases based upon number of metastatic nodes and presence or absence of intralymphatic metastases (in transit or satellite metastases)
+N1	1 lymph node
+
+    N1a: Micrometastases
+    N1b: Macrometastases
+
+N2	2 or 3 lymph nodes
+
+    N2a: Micrometastases
+    N2b: Macrometastases
+    N2c: In-transit met(s)/satellite(s) without metastatic lymph nodes
+
+N3	≥ 4 metastatic lymph nodes, or matted lymph nodes, or in-transit met(s)/satellite(s) with metastatic lymph node(s)","M0	No detectable evidence of distant metastases
+M1a	Metastases to skin, subcutaneous, or distant lymph nodes, normal serum lactate dehydrogenase (LDH) level
+M1b	Lung metastases, normal LDH level
+M1c	Metastases to all other visceral sites or distant metastases to any site combined with an elevated serum LDH level",Skin
+21,Ovary,"TX     Primary tumor cannot be assessed
+T0     No evidence of primary tumor
+T1     Tumor limited to the ovaries (one or both)
+T1a   Tumor limited to one ovary; capsule intact, no tumor on ovarian surface; no malignant cells in ascites or peritoneal washings
+T1b   Tumor limited to both ovaries; capsules intact, no tumor on ovarian surface; no malignant cells in ascites or peritoneal washings
+T1c  Tumor limited to one or both ovaries with any of the following: capsule ruptured, tumor on ovarian surface, malignant cells in ascites or peritoneal washings
+T2 Tumor involves one or both ovaries with pelvic extension
+T2a   Extension and/or implants on the uterus and/or tube(s); no malignant cells in ascites or peritoneal washings
+T2b   Extension to and/or implants in other pelvic tissues; no malignant cells in ascites or peritoneal washings
+T2c  Pelvic extension and/or implants (T2a or T2b) with malignant cells in ascites or peritoneal washings
+T3  Tumor involves one or both ovaries with microscopically confirmed peritoneal metastasis outside the pelvis
+T3a   Microscopic peritoneal metastasis beyond the pelvis (no macroscopic tumor)
+T3b  Macroscopic peritoneal metastasis beyond the pelvis 2 cm or less in greatest dimension
+T3c  Macroscopic peritoneal metastasis beyond the pelvis >2 cm in greatest dimension and/or regional lymph node metastasis","NX     Regional lymph nodes cannot be assessed
+N0     No regional lymph node metastasis
+N1     Regional lymph node metastasis","M0 	  	No distant metastasis
+M1 		Distant metastasis (excludes peritoneal metastasis)",Gyecologic
+22,Testis,"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+Tis Intratubular germ cell neoplasia
+T1 Tumor limited to the testis and epididymis or tumor invasion into the tunica albuginea only
+T2 Tumor extending through the tunica albuginea with involvement of the tunica vaginalis
+T3 Tumor invades the spermatic cord
+T4 Tumor invades the scrotum","NX Regional lymph nodes cannot be assessed
+N0 No regional lymph node metastasis
+N1 Metastases to single or multiple lymph nodes, each < 2 cm in size
+N2 Metastases to single or multiple lymph nodes, >2 cm but < 5 cm in size
+N3 Metastases to lymph node, >5 cm in greatest dimension","MX Distant metastasis cannot be assessed
+M0 No distant metastasis
+M1 Distant metastasis
+M1a Nonregional nodal or pulmonary metastasis
+M1b Distant metastasis other than to nonregional lymph nodes and lungs",Genitourinary
+23,Bone,"TX Primary tumor cannot be assessed
+TO No evidence of primary tumor
+Tl Tumor 8 cm or less in greatest dimension
+T2 Tumor more than 8 cm in greatest dimension
+T3 Discontinuous tumors in the primary bone site","NX Regional lymph nodes cannot be assessed
+NO No regional lymph node metastasis
+Nl Regional lymph node metastasis","M1X Distant metastasis cannot be assessed
+MO No distant metastasis
+Ml Distant metastasis
+Mla Lung
+Mlb Other distant sites",Musculoskeletal
+24,Soft tissue sarcoma,"TX Primary tumor cannot be assessed
+TO No evidence of primary tumor
+Tl Tumor 5 cm or less in greatest dimension
+Tla superficial tumor
+Tlb deep tumor
+T2 Tumor more than 5 cm in greatest dimension
+T2a superficial tumor
+T2b deep tumor","NX Regional lymph node1> cannot be assessed
+NO No regional lymph node metastasis
+N l * Regional lymph node metastasis","MX Distant metastasis cannot be assessed
+MO No distant metastasis
+Ml Distant metastasis",Musculoskeletal
+25,Vulva,"TX   Primary tumor cannot be assessed
+T0   No evidence of a primary tumor
+T1a (IA) Lesions ?2 cm, confined to the vulva or perineum and with stromal invasion ?1 mmb
+T1b (IB) Lesions >2 cm or any size with stromal invasion >1 mm, confined to the vulva or perineum
+T2 (II) Tumor of any size with extension to adjacent perineal structures (distal third of the urethra, distal third of the vagina, anal involvement)
+T3 (IVA) Tumor of any size with extension to any of the following proximal two thirds of the urethra, proximal two thirds of the vagina, bladder mucosa, or rectal mucosa or fixed to pelvic bone","NX   Regional lymph nodes cannot be assessed
+N0   No regional lymph node metastasis
+N1   1 or 2 regional (inguinofemoral) lymph nodes with the following features (see N1a, N1b)
+N1a (IIIA) 1 or 2 lymph node metastases, each < 5 mm
+N1b (IIIA) 1 regional lymph node metastasis ?5 mm
+N2   Regional (inguinofemoral) lymph nodes with the following features (see N2a, N2b, N2c)
+N2a (IIIB) 3 or more lymph node metastases, each < 5 mm
+N2b (IIIB) 2 or more regional lymph node metastases ?5 mm
+N2c (IIIC) Regional lymph node metastasis with extracapsular spread
+N3 (IVA) Fixed or ulcerated regional lymph node metastasis","M0   No distant metastasis
+M1 (IVB) Distant metastasis (including to pelvic lymph nodes)",Gyecologic
+26,Liver,"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+T1 Solitary tumor without vascular invasion
+T2 Solitary tumor with vascular invasion or multiple tumors, none > 5 cm
+T3a Multiple tumors > 5 cm
+T3b Single tumor or multiple tumors of any size involving a major branch of the portal or hepatic vein
+T4 Tumor(s) with direct invasion of adjacent organs other than gallbladder or with visceral peritoneum","NX Regional lymph nodes cannot be assessed
+N0 No regional lymph node metastasis
+N1 Regional lymph node metastasis","MX Distant metastasis cannot be assessed
+MO No distant metastasis
+Ml Distant metastasis",Digestive system
+27,Gallbladder,"TX - Primary tumor cannot be assessed
+T0 - No evidence of primary tumor
+Tis - Carcinoma in situ
+T1 - Tumor invades lamina propria or muscle layer
+    T1a - Tumor invades lamina propria
+    T1b - Tumor invades muscle layer
+T2 - Tumor invades perimuscular connective tissue; no extension beyond serosa or into liver
+T3 - Tumor perforates the serosa (visceral peritoneum) and/or directly invades the liver and/or one other adjacent organ or structure, such as the stomach, duodenum, colon, pancreas, omentum, or extrahepatic bile ducts
+T4 - Tumor invades main portal vein or hepatic artery or invades multiple extrahepatic organs or structures","    NX - Regional lymph nodes cannot be assessed
+    N0 - No metastases in regional lymph nodes
+    N1 - Metastases to regional lymph nodes along the cystic duct, common bile duct, hepatic artery, and/or portal vein
+    N2 - Metastases to periaortic, pericaval, superior mesenteric artery, and/or celiac artery lymph nodes","MX Distant metastasis cannot be assessed
+MO No distant metastasis
+Ml Distant metastasis",Digestive system
+28,Pancreas,"TX Primary tumor cannot be assessed
+T0 No evidence of primary tumor
+Tis Carcinoma in situ
+T1 Tumor limited to the pancreas, ? 2 cm in greatest dimension
+T2 Tumor limited to the pancreas, > 2 cm in greatest dimension
+T3 Tumor extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery
+T4 Tumor involves the celiac axis or the superior mesenteric artery (unresectable primary tumor)","NX Regional lymph nodes cannot be assessed
+N0 No regional lymph node metastasis
+N1 Regional lymph node metastasis","MX Distant metastasis cannot be assessed
+MO No distant metastasis
+Ml Distant metastasis",Digestive system

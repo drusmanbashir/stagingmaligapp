@@ -1,0 +1,22 @@
+SQLITE3 COMMANDS
+
+
+Update 'latest.csv' with new columns for TNM
+
+fire up the database:
+
+>sqlite3 tnmDB
+drop table staging;                (get rid of existing staging table)
+.read createtable                   (will create table from script)
+.import latest.csv staging   
+.headers off                        (not sure how this works)
+
+now to dump the database for Qt to read
+
+.output tnmdump
+.dump staging
+
+
+dont forget to invoke .output stdout afterwards..
+
+

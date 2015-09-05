@@ -1,0 +1,11 @@
+
+
+CREATE TABLE staging (
+    "organid" integer primary key,
+    "organ" VARCHAR (20),
+    "t" TEXT,
+    "n" TEXT,
+    "m" TEXT,
+    "region" varchar (20)
+);
+

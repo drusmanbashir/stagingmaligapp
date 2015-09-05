@@ -1,0 +1,127 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE staging (
+    "organid" integer primary key,
+    "organ" VARCHAR (20),
+    "t" TEXT,
+    "n" TEXT,
+    "m" TEXT,
+    "region" varchar (20)
+);
+INSERT INTO "staging" VALUES(1,'Lung','Tx - The tumor size is unknown, or cancer cells are only found in sputum.
+T0 - There is no evidence of a primary tumor.
+Tis - Carcinoma in situ – The tumor is present only in the cells lining the airway.
+T1 – Tumors less than or equal to 3 cm 
+ T1a – Less than or equal to 2 cm. 
+ T1b – Greater than 2 cm but less than or equal to 3 cm.
+T2 – The tumor is greater than 3 cm but less than 7 cm. T2 tumors may block part of the airway, but have not resulted in pneumonia or caused atelectasis. They may have spread to the lining around the lungs. They may also be close to the main bronchus, but are at least 2 cm (about an inch) away from the area in which the bronchus divides to go to each of the lungs. 
+ T2a - Greater than 3 cm but less than or equal to 5 cm. 
+ T2b - Greater than 5 cm but less than or equal to 7 cm.
+
+T3 - Tumors greater than 7 cm, or less than 7 cm but with a separate nodule in the same lobe. T3 tumors also include tumors that are less than 7 cm but invade the lining of the lung (pleura), the chest wall, the diaphragm, the main bronchus, or lie within 2 cm of the area where the bronchus divides to travel to the lungs. A tumor is also classified as T3 if it is less than 7 cm but is associated with pneumonia or collapse of the entire lung.
+
+T4 - A tumor of any size, but with another nodule in a different lobe on the same side of the body, or a tumor that invades structures in the chest such as the heart, major blood vessels near the heart, the trachea, the recurrent laryngeal nerve (a nerve near the trachea), the mediastinum (the space between the lungs), the esophagus, or the area where the main bronchus divides to travel to the two lungs.','N','M','Chest');
+INSERT INTO "staging" VALUES(2,'Stomach','Tx -  Primary tumor (T) cannot be assessed
+T0 - No evidence of primary tumor
+Tis - Carcinoma in situ, intraepithelial tumor without invasion of lamina propria
+T1 - Tumor invades lamina propria or submucosa
+T2 - Tumor invades muscularis propria or subserosa
+T3 - Tumor penetrates serosa (ie, visceral peritoneum) without invasion of adjacent structures
+T4 - Tumor invades adjacent structures','NX - Regional lymph nodes (N) cannot be assessed
+N0 - No regional lymph node metastases
+N1 - Metastasis in 1-6 regional lymph nodes
+N2 - Metastasis in 7-15 regional lymph nodes
+N3 - Metastasis in > 15 regional lymph nodes','MX - Distant metastasis (M) cannot be assessed
+M0 - No distant metastasis
+M1 - Distant metastasis','GI');
+INSERT INTO "staging" VALUES(3,'Colorectal','
+TX - Primary tumor cannot be assessed 
+T0 - No evidence of primary tumor 
+Tis - Carcinoma in situ: intraepithelial or invasion of lamina propria 
+T1 - Tumor invades submucosa 
+T2 - Tumor invades muscularis propria 
+T3 - Tumor invades through the muscularis propria into the pericolorectal tissues 
+T4a - Tumor penetrates to the surface of the visceral peritoneum 
+T4b - Tumor directly invades or is adherent to other organs or structures 
+
+','
+NX - Regional lymph nodes cannot be assessed
+N0 - No regional lymph node metastasis
+N1 - Metastasis in 1-3 regional lymph nodes
+N1a - Metastasis in 1 regional lymph node
+N1b - Metastasis in 2-3 regional lymph nodes
+N1c - Tumor deposit(s) in the subserosa, mesentery, or nonperitonealized pericolic or perirectal tissues without regional nodal metastasis 
+N2 - Metastasis in 4 or more lymph nodes
+N2a - Metastasis in 4-6 regional lymph nodes
+N2b - Metastasis in 7 or more regional lymph nodes
+','M0 - No distant spread seen
+M1a - Spread to 1 distant organ or set of distant lymph nodes
+M1b - Spread to > 1 distant organ or set of distant lymph nodes, or has spread to distant parts of the peritoneum ','GI');
+INSERT INTO "staging" VALUES(4,'Prostate','
+TX: cannot evaluate the primary tumor
+T0: no evidence of tumor
+T1: tumor present, but not detectable clinically or with imaging
+        T1a: tumor was incidentally found in less than 5% of prostate tissue resected (for other reasons)
+        T1b: tumor was incidentally found in greater than 5% of prostate tissue resected
+        T1c: tumor was found in a needle biopsy performed due to an elevated serum PSA
+T2: the tumor can be felt (palpated) on examination, but has not spread outside the prostate
+        T2a: the tumor is in half or less than half of one of the prostate gland''s two lobes
+        T2b: the tumor is in more than half of one lobe, but not both
+        T2c: the tumor is in both lobes but within the prostatic capsule
+T3: the tumor has spread through the prostatic capsule (if it is only part-way through, it is still T2)
+        T3a: the tumor has spread through the capsule on one or both sides
+        T3b: the tumor has invaded one or both seminal vesicles
+T4: the tumor has invaded other nearby structures
+','NX: cannot evaluate the regional lymph nodes
+N0: there has been no spread to the regional lymph nodes
+N1: there has been spread to the regional lymph nodes
+','MX: cannot evaluate distant metastasis
+M0: there is no distant metastasis
+M1: there is distant metastasis
+        M1a: the cancer has spread to lymph nodes beyond the regional ones
+        M1b: the cancer has spread to bone
+        M1c: the cancer has spread to other sites (regardless of bone involvement)
+','GU');
+INSERT INTO "staging" VALUES(5,'Breast','TX- that the tumour size cannot be assessed
+
+Tis - DCIS
+T1 – The tumour is 2 centimetres (cm) across or less
+    T1mi – the tumour is 0.1cm across or less
+    T1a – the tumour is more than 0.1 cm but not more than 0.5 cm
+    T1b – the tumour is more than 0.5 cm but not more than 1 cm
+    T1c – the tumour is more than 1 cm but not more than 2 cm
+T2 – The tumour is more than 2 centimetres, but no more than 5 centimetres across
+T3 – The tumour is bigger than 5 centimetres across
+T4 
+    T4a – The tumour has spread into the chest wall
+    T4b – The tumour has spread into the skin and the breast may be swollen
+    T4c – The tumour has spread to both the skin and the chest wall
+    T4d – Inflammatory carcinoma – this is a cancer in which the overlying skin is red, swollen and painful to the touch
+','NX means that the lymph nodes cannot be assessed (for example, if they were previously removed)
+N0 – No cancer cells found in any nearby nodes
+
+Isolated tumour cells (ITCs) are small clusters of cancer cells less than 0.2 mm across, or a single tumour cell, or a cluster of fewer than 200 cells in one area of a lymph node. Lymph nodes containing only isolated tumour cells are not counted as positive lymph nodes
+
+N1 – Cancer cells are in the lymph nodes in the armpit but the nodes are not stuck to surrounding tissues
+
+pN1mi – One or more lymph nodes contain areas of cancer cells called micrometastases that are larger than 0.2mm or contain more than 200 cancer cells but are less than 2mm
+
+N2 is divided into 2 groups
+
+    N2a – there are cancer cells in the lymph nodes in the armpit, which are stuck to each other and to other structures
+    N2b – there are cancer cells in the lymph nodes behind the breast bone (the internal mammary nodes), which have either been seen on a scan or felt by the doctor. There is no evidence of cancer in lymph nodes in the armpit
+
+N3 is divided into 3 groups
+
+    N3a – there are cancer cells in lymph nodes below the collarbone
+    N3b – there are cancer cells in lymph nodes in the armpit and behind the breast bone
+    N3c – there are cancer cells in lymph nodes above the collarbone
+','MX - Distant metastasis (M) cannot be assessed
+M0 - No distant metastasis
+M1 - Distant metastasis','Misc');
+INSERT INTO "staging" VALUES(6,'Mesothelioma','gagCREATE TABLE regions (','hh','j','Chest');
+INSERT INTO "staging" VALUES(7,NULL,NULL,NULL,NULL,'Chest');
+INSERT INTO "staging" VALUES(8,NULL,NULL,NULL,NULL,'Chest');
+INSERT INTO "staging" VALUES(9,NULL,NULL,NULL,NULL,'Chest');
+INSERT INTO "staging" VALUES(10,NULL,NULL,NULL,NULL,'Chest');
+COMMIT;
