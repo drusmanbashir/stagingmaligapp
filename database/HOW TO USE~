@@ -8,8 +8,10 @@ fire up the database:
 >sqlite3 tnmDB
 drop table staging;                (get rid of existing staging table)
 .read createtable                   (will create table from script)
-.import latest.csv staging   
 .headers off                        (not sure how this works)
+
+.import tnm.concise.csv staging   
+
 
 now to dump the database for Qt to read
 

@@ -5,7 +5,8 @@
 #include <qqml.h>
 #include <QtQuick/QQuickItem>
 #include <QtQuick/QQuickView>
-#include "qtquick2applicationviewer.h"
+#include <qtquick2applicationviewer/qtquick2applicationviewer.h>
+//#include "qtquick2applicationviewer.h"
 #include "database.h"
 #include <QRect>
 #include <QGuiApplication>
@@ -24,7 +25,7 @@ qreal refWidth = 1080.;
 
 
 
-    Database jango("theDiB");
+    Database jango("theiiB");
 
     jango.readTables();
 
